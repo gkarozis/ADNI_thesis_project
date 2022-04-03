@@ -9,4 +9,4 @@ A 3D CNN for the 3-class ADNI problem (AD,MCI,CN) processing brain mri images
 
    The second file created was *preprocessing.py*. In this file, as the name betrays, we have some basic preprocessing in the 3D images, in order to have the same resolution and shape of the images. Furthermore, we use some data augmentation techniques for the purpose of having pluralism in our dataset.
   
-   The third file is model.py. In this file, we run our experiments for a specific dataset and its split into train,test and validation datasets. Now we can evaluate our models. In addition we can detect early stopping and find new ways to delay its appearance to a subsequent epoch.
+   The third file is *model.py*. In this file, we run our experiments for a specific dataset and its split into train,test and validation datasets. Now we can evaluate our models. In addition we can detect early stopping and find new ways to delay its appearance to a subsequent epoch.
